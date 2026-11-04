@@ -19,10 +19,10 @@ BitCrusher bitCrusher;
 // サウンドファイル（パスを修正してください）
 // ============================================================
 String soundFile =
-  "/Users/saba/Documents/Processing/Sounds/StratoS.wav";
-//  "/Users/saba/Documents/Processing/Sounds/northside-drive.wav";
-//  "/Users/saba/Documents/Processing/Sounds/techno-trance.wav";
-//  "/Users/saba/Documents/Processing/Sounds/Pattern1.wav";
+  "/Users/fukushimakenichi/2026/クリ/5/CE_Files/Sounds/StratoS.wav";
+//  "/Users/fukushimakenichi/2026/クリ/5/CE_Files/Sounds/northside-drive.wav";
+//  "/Users/fukushimakenichi/2026/クリ/5/CE_Files/Sounds/techno-trance.wav";
+//  "/Users/fukushimakenichi/2026/クリ/5/CE_Files/Sounds/Pattern1.wav";
 // ============================================================
 
 // ============================================================
