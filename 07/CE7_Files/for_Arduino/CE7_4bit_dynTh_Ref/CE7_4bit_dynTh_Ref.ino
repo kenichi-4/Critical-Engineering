@@ -60,7 +60,7 @@ void processSample(int sample) {
     // 閾値の超過状態は毎回更新
     aboveThreshold = (energy > threshold);
 
-    if (  ) {   // ここを完成させる
+    if (risingEdge && now - lastBeatTime > REFRACTORY_TIME) {   // unsigned の引き算なので millis() が一周しても正しく動く
       // ビート候補
       beat = 1;
       lastBeatTime = now;

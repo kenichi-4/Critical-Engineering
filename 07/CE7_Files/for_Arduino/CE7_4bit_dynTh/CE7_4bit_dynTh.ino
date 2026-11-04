@@ -42,7 +42,7 @@ void processSample(int sample) {
     float energy = (float)sumSquare / BLOCK_SIZE;
 
     // 過去の平均エネルギー（フィルタリング）
-    averageEnergy = ;  // ここを完成させる
+    averageEnergy = averageEnergy + AVERAGE_ALPHA * (energy - averageEnergy);  // 1次IIR（y[i] = y[i-1] + α(x[i] - y[i-1])）
 
     // 動的閾値
     float threshold = THRESHOLD_FACTOR * averageEnergy;
@@ -52,7 +52,7 @@ void processSample(int sample) {
     // ------------------------------------------------------
     int beat = 0;
 
-    if (   ) {    // ここを完成させる
+    if (!aboveThreshold && energy > threshold) {    // 閾値を下から上へ超えた瞬間だけ検出
       // ビート候補
       beat = 1;
       aboveThreshold = true;
