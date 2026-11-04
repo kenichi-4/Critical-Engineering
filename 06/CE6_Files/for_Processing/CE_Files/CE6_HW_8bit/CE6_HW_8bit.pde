@@ -8,7 +8,7 @@ Minim minim;
 final int BAUD_RATE = 115200;
 
 // ===== サウンドファイル =====
-String soundFile = "/Users/fukushimakenichi/2026/クリ/5/CE_Files/Sounds/StratoS.wav";
+String soundFile = "/Users/fukushimakenichi/2026/クリティカル/5/CE_Files/Sounds/StratoS.wav";
 
 // ===== 処理設定 =====
 final int DOWNSAMPLE_FACTOR = 5;   // 44100 Hz → 8820 Hz

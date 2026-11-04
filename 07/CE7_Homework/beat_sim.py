@@ -20,7 +20,7 @@ import statistics
 import sys
 import wave
 
-DEFAULT_SOUND_DIR = "/Users/fukushimakenichi/2026/クリ/5/CE_Files/Sounds"
+DEFAULT_SOUND_DIR = "/Users/fukushimakenichi/2026/クリティカル/5/CE_Files/Sounds"
 SONGS = ["Pattern1.wav", "Pattern2.wav", "Pattern3.wav",
          "StratoS.wav", "techno-trance.wav", "northside-drive.wav"]
 

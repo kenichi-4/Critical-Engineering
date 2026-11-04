@@ -12,7 +12,7 @@ AudioFormat format;
 // ============================================================
 // Sound file（サウンドファイルへのパスを自分の環境に合わせて書く）
 // ============================================================
-String soundFile = "/Users/fukushimakenichi/2026/クリ/5/CE_Files/Sounds/StratoS.wav";
+String soundFile = "/Users/fukushimakenichi/2026/クリティカル/5/CE_Files/Sounds/StratoS.wav";
 //String soundFile = "/Users/xxxxxx/Documents/Processing/CE_Files/Sounds/StratoS.wav";
 
 // ============================================================
